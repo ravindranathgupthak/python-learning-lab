@@ -91,3 +91,13 @@ if len(numbers) >= 2:
         print("Second largest number in the list:", second_largest)
     else:
         print("There is no second largest number in the list.") 
+
+# list with mixed data types
+alist = [1, "apple", 3.14, True]
+print(alist)
+
+# Create a nested list and print it.
+nested_list = [1, 2, ["apple", "banana"], 3.14, True]
+print(nested_list)
+print("Length of the nested list:", len(nested_list))
+print("Third element of the nested list:", nested_list[2])
