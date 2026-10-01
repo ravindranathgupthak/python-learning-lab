@@ -1,4 +1,4 @@
-# Excercise 01: Variables and basic data types
+# Exercise 01: Variables and basic data types
 
 name = "Python"
 year = "2026"
@@ -14,3 +14,7 @@ print(type(name))
 print(type(year))
 print(type(version))
 print(type(learning))
+
+# complex number
+complex_number = 2 + 3j
+print(type(complex_number))
